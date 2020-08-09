@@ -5,7 +5,7 @@ const URL_API = "http://api.lptqpapua.org/api/portal/post?";
 
 const TablePage = () => {
   const [post, setPost] = useState([]);
-  const [page, setPage] = useState(0);
+  const [page, setPage] = useState(1);
   const [totalPage, setTotalPage] = useState(0);
 
   useEffect(() => {
